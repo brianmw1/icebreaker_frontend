@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+.interest-page {
+  background-color: #005da8;
+
+  /* 
+    background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255) 29%,
+    rgba(49, 132, 219, 1) 65%,
+    rgba(12, 119, 115, 1) 100%
+  );
+  backgroundimage: `url(https://media.istockphoto.com/vectors/grey-and-blue-tech-geometric-background-vector-id693248152?k=20&m=693248152&s=170667a&w=0&h=cVx94hil0hldtmcdJiMkc0Jv8lA91nWg53V5lETdPjw=)`;
+*/
+
+  color: white;
+}
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 35px;
+  /*  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+*/
+  color: white;
+}
+.down {
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  color: #005da8;
+  font-size: 22px;
+  background-color: white;
+
+  /*  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255) 29%,
+    rgba(49, 132, 219, 1) 65%,
+    rgba(12, 119, 115, 1) 100%
+  );*/
+}
+.answer-text {
+  align-items: center;
+}
+.btn-style {
+  display: inline-block;
+  background-color: rgb(177, 114, 177);
+  /* border-radius: 5px; */
+  /* border: 4px double #cccccc; */
+  border: 4px;
+  border-radius: 25px;
+  color: #2098f3;
+  color: #014c85;
+  text-align: center;
+  font-size: 17px;
+  font-family: 'Nunito';
+  padding: 10px;
+  width: 200px;
+  /* 
+  -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s; */
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 3px;
+}
+.btn-style1 {
+  border: 2px solid black;
+  border-color: #005da8;
+  display: inline-block;
+  background-color: #ffffff;
+  border-radius: 5px;
+
+  min-width: 200px;
+  border: 1px;
+  border-radius: 25px;
+  border-style: solid;
+  text-align: center;
+  font-size: 17px;
+  font-family: 'M PLUS 1', sans-serif;
+  padding: 10px;
+
+  /* 
+  -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s; */
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 3px;
+}
+.btn-style2 {
+  display: flex;
+
+  background-color: #2098f3;
+  /* border-radius: 5px; */
+  /* border: 4px double #cccccc; */
+  border: 4px;
+  border-radius: 25px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 17px;
+  font-family: 'Nunito';
+  padding: 10px;
+  width: fit-content;
+  margin-left: 400px;
+  margin-bottom: 100px;
+  /* 
+  -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s; */
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+}

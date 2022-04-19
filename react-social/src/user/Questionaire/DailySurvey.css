@@ -1,0 +1,40 @@
+.div-daily {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  padding-top: 10%;
+}
+
+.button-daily {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.headerh1{
+  color:black;
+}
+
+
+#profilebuttons{
+  display: inline-block;
+  background-color: #3184db;
+  /* border-radius: 5px; */
+  /* border: 4px double #cccccc; */
+  border: 4px;
+  border-radius: 25px;
+  color: #eeeeee;
+  text-align: center;
+  font-size: 17px;
+  font-family: 'Nunito';
+  padding: 10px;
+  width: 200px;
+  /* -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s; */
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 3px;
+}
